@@ -1,0 +1,93 @@
+{
+  "n_predictions": 7485,
+  "seasons": [
+    2022,
+    2023,
+    2024
+  ],
+  "window": 5,
+  "n_qb_games": 1976,
+  "n_qbs": 110,
+  "mean_p_hit": 0.5,
+  "actual_hit_rate": 0.48563794255177023,
+  "brier": 0.21152022522896588,
+  "calibration_deciles": [
+    {
+      "n": 1298,
+      "mean_pred": 0.1587,
+      "actual": 0.2011
+    },
+    {
+      "n": 199,
+      "mean_pred": 0.1587,
+      "actual": 0.206
+    },
+    {
+      "n": 879,
+      "mean_pred": 0.3085,
+      "actual": 0.3333
+    },
+    {
+      "n": 618,
+      "mean_pred": 0.3085,
+      "actual": 0.3317
+    },
+    {
+      "n": 1497,
+      "mean_pred": 0.5,
+      "actual": 0.4957
+    },
+    {
+      "n": 1285,
+      "mean_pred": 0.6915,
+      "actual": 0.6529
+    },
+    {
+      "n": 212,
+      "mean_pred": 0.6915,
+      "actual": 0.533
+    },
+    {
+      "n": 1155,
+      "mean_pred": 0.8413,
+      "actual": 0.7758
+    },
+    {
+      "n": 342,
+      "mean_pred": 0.8413,
+      "actual": 0.7164
+    }
+  ],
+  "per_shade": [
+    {
+      "k": -1.0,
+      "n": 1497,
+      "mean_pred": 0.8413,
+      "actual": 0.7622
+    },
+    {
+      "k": -0.5,
+      "n": 1497,
+      "mean_pred": 0.6915,
+      "actual": 0.6359
+    },
+    {
+      "k": 0.0,
+      "n": 1497,
+      "mean_pred": 0.5,
+      "actual": 0.4957
+    },
+    {
+      "k": 0.5,
+      "n": 1497,
+      "mean_pred": 0.3085,
+      "actual": 0.3327
+    },
+    {
+      "k": 1.0,
+      "n": 1497,
+      "mean_pred": 0.1587,
+      "actual": 0.2017
+    }
+  ]
+}
